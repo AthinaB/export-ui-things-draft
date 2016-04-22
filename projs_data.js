@@ -1,16 +1,3 @@
-// Create temp html element to add the output
-
-$(' .notify .container').append('<div id=scr_pr></div>');
-var $scr_out = $('#scr_pr');
-	
-
-// Usage:
-// empty($scr_out);
-function empty($el) {
-	$el.empty();
-}
-
-
 // Get the names of the projects and put them in the above element
 $('#table-items-total tr').each(function(i) {
 	// console.log(i, $(this).find('td:eq(1)').html())
